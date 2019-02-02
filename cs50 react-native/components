@@ -1,0 +1,26 @@
+#Stateless funcitonal component
+    -It is just pure function. It just recives an props an returns an node.
+    -It is called stateless function because it doesnot perform oprations like pushing value to array
+        if any other things are done it may create error or bug.
+    -if the props passed is changed the this stateless function is automatically invoked.
+
+
+#component lifecycle
+
+    #Mount
+        -contructor function
+        -render
+        -componentDidMount
+
+    #Update
+        -ComponentWillReceiveProps(nextProps)
+        -ShouldComponentUpdate( nextProps , nextState)
+        -render
+        -componentDidUpdate( prevState , prevProps )
+    #Unmount
+        -componentWillUnmount()
+
+        
+#Assignment:
+    1.Timer app
+    2.practice all comppnent lifecycle method;

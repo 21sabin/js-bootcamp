@@ -1,0 +1,6 @@
+1. In react native Javascript is handled by one thread and UI is handled by another thread.
+2. UI thread and Javascript thread is communicated by Bridge.
+3. Note. Even if Javascript code is blocked UI component still works.
+4. Note : In reac we have a concept of pixels and percentage while in react native unit-less number in length
+        ( pixel density ?)
+5. import { Constants } from 'expo' : Constants.statusBarHeight is used to get the staus bar height;
