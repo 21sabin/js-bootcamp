@@ -43,10 +43,13 @@
 
 //javascript prototyping
 
-const obj = new Object();
-console.log(Object.getPrototypeOf(obj))
+// const obj = new Object();
+// console.log(Object.getPrototypeOf(obj))
 
-thisIsVar();
-const thisIsVar=()=>{
-    console.log("this is var")
-}
+// thisIsVar();
+// const thisIsVar=()=>{
+//     console.log("this is var")
+// }
+
+var arra =[1,2,3,4,5];
+console.log( arra.splice(1,3))
