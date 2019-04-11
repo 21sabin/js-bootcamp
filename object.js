@@ -51,5 +51,13 @@
 //     console.log("this is var")
 // }
 
-var arra =[1,2,3,4,5];
-console.log( arra.splice(1,3))
+// var arra =[1,2,3,4,5];
+// var a = [6,7]
+// // console.log( arra.splice(1,3));
+// console.log([...arra,...a],"789")
+// console.log(arra.concat(a))
+// console.log(arra.slice(3))
+
+
+let obj ={a:1,b:2};
+console.log(obj.hasOwnProperty('a'))
