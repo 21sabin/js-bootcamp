@@ -1,0 +1,4 @@
+1.functional/block scoping
+2.anonymous function
+3.IIFS
+4.closure
