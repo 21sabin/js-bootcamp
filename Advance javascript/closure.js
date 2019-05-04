@@ -41,3 +41,12 @@ for( var i=0 ;i<3 ; i++){
         setTimeout(()=>console.log('i am at index'+i),3000)
     })(i)
 };
+
+//note closure can be used to make private data as well
+
+function closure(){
+    let privateData = 'this can be only accessed by inner functin';
+    return function test(){
+        return privateData;
+    }
+}
