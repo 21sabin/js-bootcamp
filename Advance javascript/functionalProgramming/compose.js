@@ -43,7 +43,7 @@ purchaseItem(
 )(user,{name:'item',price:100})
 
 function emptyCart(){
-    return 1;
+    return user.cart=[];
 }
 
 function buyItem(){
@@ -67,6 +67,7 @@ function addItem( user , item ){
 const fun = ()=>console.log('sdf')
 const fun1=(a,b)=>(...args)=>console.log(args);
 fun1(2,3)(3,4,5,6)
+
 
 
 

@@ -4,3 +4,4 @@ Things to remember in functional programming
 3 . immutable statement
 4.composable
 5. no shared state
+
