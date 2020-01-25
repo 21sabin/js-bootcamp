@@ -12,7 +12,7 @@
 
 
 //* prototype inheritance
-    // num.__proto__ gives all the method associated with that instance
+// num.__proto__ gives all the method associated with that instance
 
 // const o = {
 //     firtname:'jordan hayasi',
@@ -59,5 +59,18 @@
 // console.log(arra.slice(3))
 
 
-let obj ={a:1,b:2};
+let obj = { a: 1, b: 2 };
 console.log(obj.hasOwnProperty('a'))
+
+function add(a, b, callback) {
+    let error = new Error('Something went wrong')
+    callback(null, error);
+}
+
+add(2, 3, (result, error) => {
+    if (error) {
+        console.log('error', error)
+    }
+    console.log('result', result)
+})
+
